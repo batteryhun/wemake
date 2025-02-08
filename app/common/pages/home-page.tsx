@@ -14,12 +14,7 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export const loader = () => {
-  return {
-    hello: "world",
-    hello2: true,
-  };
-};
+export const loader = () => {};
 
 export default function HomePage({ loaderData }: Route.ComponentProps) {
   return (
